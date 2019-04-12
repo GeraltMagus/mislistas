@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="/mislistas/login.css">
 </head>
 <body>
+		<img src="listime.jpeg" class="imgLogin">
+		<br>
 		<form>
-				<img src="listime.jpeg" class="imgLogin">
-				<br>
 				<label>Sign in</label>
 				<br>
 				<br>
