@@ -8,20 +8,20 @@
 <body>
 		<img src="listime.jpeg" class="imgLogin">
 		<br>
-		<form>
+		<form action="entrar.php" method="POST">
 				<label>Sign in</label>
 				<br>
 				<br>
 		<label>Correo:</label>
 		<br>
-		<input type="text" id="txtCorreo" value="correo@dominio.com">
+		<input type="text" name="txtCorreo" id="txtCorreo" value="correo@dominio.com">
 		<br>
 		<label>Contraseña:</label>
 		<br>
-		<input type="password" id="txtPassword" value="">
+		<input type="password" name="txtPassword" id="txtPassword" value="">
 		<br>
 		<br>
-		<input type="button" value="Ingresar">
+		<input type="submit" value="Ingresar">
 		<br>
 		<br>
 		<a href="">¿Olvidaste la contraseña?</a>
